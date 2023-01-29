@@ -1,4 +1,4 @@
-import smtplib,ssl
+import smtplib
 import os
 from email.message import EmailMessage
 import imghdr
