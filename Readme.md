@@ -2,12 +2,12 @@
 This code captures video feed from a laptop camera and performs motion detection by comparing each frame of the video feed to a reference frame, which is the first frame of the video. If there is any movement within the frame, the code will save a snapshot of the frame and send it to a designated email address.
 
 ## Requirements
-cv2 (OpenCV)
-time
-emailing (email sending module)
-glob
-os
-threading
+* cv2 (OpenCV)
+* time
+* emailing (email sending module)
+* glob
+* os
+* threading
 ## Usage
 Connect a laptop camera or external webcam to your device.
 Run the code using a Python environment.
